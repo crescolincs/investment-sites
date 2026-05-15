@@ -1,0 +1,96 @@
+backend:
+  name: github
+  repo: crescolincs/robotics
+  branch: main
+  base_url: https://smc.agrifood.pages.dev #url for Oauth app on Github Developer settings
+  auth_endpoint: /api/auth
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: lincs
+    api_key: 753698353151579
+    multiple: false
+    output_filename_only: true
+
+
+publish_mode: editorial_workflow
+logo_url: https://res.cloudinary.com/lincs/image/upload/v1716044699/invest-lincolnshire-logo.svg
+
+
+media_folder: "/img" # Folder where user uploaded files should go
+public_folder: "/img"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "articles" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Article" # Used in the UI, ie.: "New Post"
+    folder: "content/articles" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # all The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Intro Blurb", name: "description", widget: "text", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Hero BG Video", name: "herobgvideo", widget: "text", required: false}
+      - {label: "Featured Post", name: "featured", widget: "select",options: ["yes", ""], required: false}
+      - {label: "Featured Post Position (1 to 4)", name: "weight", widget: "number", value_type: "int", min: 0, max: 4, step: 1, required: false}  
+      - {label: "Social Media Image", name: "socialimage", widget: "image", required: false}            
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "select", options: ["Logistics","Transport"], multiple: true,required: false}      
+      - {label: "Sources", name: "sources", widget: "list", fields: [
+              {label: "Ref No", name: "refno", widget: "number", required: false},
+              {label: "Source", name: "source", widget: "string", required: false},
+              {label: "Url", name: "url", widget: "string", required: false },
+              {label: "Url Title", name: "urltitle", widget: "string", required: false }],required: false}
+      - {label: "SEO Description", name: "SEODesc", widget: "text", required: false}                    
+      - {label: "Content Type", name: "type", widget: "hidden", default: article}
+      - {label: "Layout Template", name: "layout", widget: "hidden", default: post} 
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "content/_index.md"
+        label: "Robotics Home Page"
+        name: "home"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Social Image", name: "socialImage", widget: "image", allow_multiple: false , required: false, hint: An image that will be picked up by social media platforms}
+          - {label: "Sector", name: "sector", widget: "hidden", default: defence-security}
+          - {label: "Description(SEO)", name: "seoDescription", widget: "text", required: false, hint: A description/synopsis of the content to help search engines undestand the value to your audience}
+          - {label: "CTA Arrow Dark", name: "ctaarrowclrdark", widget: "hidden", default: '#126160'}
+          - {label: "CTA Arrow Light", name: "ctaarrowclrlight", widget: "hidden", default: '#aacf8b'}
+
+          - {label: "Hero", name: "hero", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Hero Section.},
+              {label: "Heading", name: "heading", widget: "string", hint: A clear statement that indicates who this offer is for and how it will help them },
+              {label: "Strapline", name: "blurb", widget: "string", hint: A Strapline/Subheading for the Hero Section},
+              {label: "Hero Image", name: "heroImg", widget: "image", allow_multiple: false}]}
+
+          - {label: "Story Section", name: "roboticsstory", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", required: false, default: true , hint: Set to false to hide this Section.},
+              {label: "Heading", name: "heading", widget: "string", required: false},
+              {label: "Introduction", name: "intro", widget: "text", required: false },
+              {label: "Robotics Story", name: "body", widget: "markdown", required: false }]}
+        
+          - {label: "Support Section", name: "support", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", required: false, default: true , hint: Set to false to hide the Support Section.},
+              {label: "Heading", name: "heading", widget: "string", required: false},
+              {label: "Subheading", name: "lead", widget: "string", required: false },
+              {label: "Call to Action", name: "ctatext", widget: "string", required: false },
+              {label: "Support Section Image", name: "image", widget: "hidden", default: 'https://res.cloudinary.com/lincs/image/upload/q_auto,f_auto/yellow-grad', allow_multiple: false }]}
+          - {label: "Call To Action Section", name: "sectorCTA", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", required: false, default: true , hint: Set to false to hide the Call To Action Section.},
+              {label: "Call To Action Image", name: "image", widget: "image", allow_multiple: false},
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Description", name: "lead", widget: "text" },
+              {label: "Background Colour", name: "bgcolor", widget: "hidden", default: 'dark' },
+              {label: "Heading Colour", name: "headingcolor", widget: "hidden", default: 'light' },
+              {label: "Button Colour", name: "buttoncolor", widget: "hidden", default: '#009e7f' },
+              {label: "Button Hover Colour", name: "hovercolor", widget: "hidden", default: '#aacf8b' },
+              {label: "Brochure Highlights", name: "brochurecontents", widget: "list", fields: [
+                  {label: "Highlight", name: "highlight", widget: "string" }]},
+              {label: "Contents text colour", name: "contentscolour", widget: "hidden", default: 'text-white' },
+              {label: "Form Handler Script", name: "formhandler", widget: "hidden", default: 'brochurerequest'},
+              {label: "Hidden Form Fields", name: "hiddenformfields", widget: "list", fields: [
+                  {label: "Field Name", name: "field", widget: "hidden" },
+                  {label: "Field Value", name: "value", widget: "hidden" }]},
+              {label: "Image in the footer section", name: "footerimg", widget: "hidden", default: 'https://res.cloudinary.com/lincs/image/upload/q_auto,f_auto/green-half-grad.png'}]}
+      

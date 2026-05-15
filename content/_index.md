@@ -38,7 +38,79 @@ locations:
     - Name: Crown House
       Thumbnail: crown-house.jpg
       pdf: Crown-House.pdf
-      display: true      
+      display: true 
+    - Name: Central Lincolnshire Food Enterprise Zone
+      Thumbnail: central-lincolnshire-food-enterprise-zone.jpg
+      pdf: Central-Lincolnshire-Food-Enterprise-Zone.pdf
+      display: true 
+    - Name: Europarc
+      Thumbnail: europarc.jpg
+      pdf: Europarc.pdf
+      display: true
+    - Name: Grimsby Town Centre
+      Thumbnail: grimsby-town-centre.jpg
+      pdf: Grimsby-Town-Centre.pdf
+      display: true  
+    - Name: Humber Gate. Plot H
+      Thumbnail: humber-gate-plot-h.jpg
+      pdf: Humber-Gate-Plot-H.pdf
+      display: true
+    - Name: Humber Industrial LTD IPP Grimsby
+      Thumbnail: humber-industrial-ltd-ipp-grimsby.jpg
+      pdf: Humber-Industrial-LTD-IPP-Grimsby.pdf
+      display: true
+    - Name: Humber Industrial LTD Energy Park Way
+      Thumbnail: humber-industrial-ltd-energy-park-way.jpg
+      pdf: Humber-Industrial-LTD-Energy-Park-Way.pdf
+      display: true
+    - Name: Lincoln City Centre
+      Thumbnail: lincoln-city-centre.jpg
+      pdf: Lincoln-City-Centre.pdf
+      display: true
+    - Name: Long Bennington Business Park
+      Thumbnail: long-bennington-business-park.jpg
+      pdf: Long-Bennington-Business-Park.pdf
+      display: true
+    - Name: Lincoln Science and Innovation Park
+      Thumbnail: lincoln-science-and-innovation-park.jpg
+      pdf: Lincoln-Science-and-Innovation-Park.pdf
+      display: true
+    - Name: Malt Park
+      Thumbnail: malt-park.jpg
+      pdf: Malt-Park.pdf
+      display: true
+    - Name: Mulberry Logistics Park
+      Thumbnail: mulberry-logistics-park.jpg
+      pdf: Mulberry-Logistics-Park.pdf
+      display: true
+    - Name: Port Sutton Bridge Circular Power & Industrial Hub
+      Thumbnail: port-sutton-bridge-circular-power.jpg
+      pdf: Port-Sutton-Bridge-Circular-Power.pdf
+      display: true
+    - Name: Sleaford-Moor-Enterprise-Park Phase 3
+      Thumbnail: sleaford-moor-enterprise-park.jpg
+      pdf: Sleaford-Moor-Enterprise-Park.pdf
+      display: true
+    - Name: South Lincolnshire Food Enterprise Zone
+      Thumbnail: south-lincolnshire-food-enterprise-zone.jpg
+      pdf: South-Lincolnshire-Food-Enterprise-Zone.pdf
+      display: true
+    - Name: Somerby Park
+      Thumbnail: somerby-park.jpg
+      pdf: Somerby-Park.pdf
+      display: true
+    - Name: The Helm
+      Thumbnail: the-helm.jpg
+      pdf: The-Helm.pdf
+      display: true
+    - Name: The Ice Factory
+      Thumbnail: the-ice-factory.jpg
+      pdf: The-Ice-Factory.pdf
+      display: true
+    - Name: Wardentree Lane
+      Thumbnail: wardentree-lane.jpg
+      pdf: Wardentree-Lane.pdf
+      display: true                                                                                          
 support:
   display: false
   heading: Support for Your Business Investment
