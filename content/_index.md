@@ -1,19 +1,52 @@
 ---
-title: 'Investment Sites in Greater Lincolnshire'
-socialImage: 'https://res.cloudinary.com/lincs/image/upload/robotics-header.png'
+title: Investment Sites in Greater Lincolnshire
+socialImage: https://res.cloudinary.com/lincs/image/upload/robotics-header.png
 sector: locations
-seoDescription: >-
-        Lincolnshire is the UK location of choice for investing businesses in high-growth industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively.
-ctaarrowclrdark: '#7a7a7f'             
-ctaarrowclrlight: '#ded3d3'             
-
+seoDescription: Lincolnshire is the UK location of choice for investing
+  businesses in high-growth industry sectors. Invest Lincolnshire helps
+  businesses to relocate, start-up or expand in Lincolnshire - more quickly,
+  efficiently, and cost-effectively.
+ctaarrowclrdark: "#7a7a7f"
+ctaarrowclrlight: "#ded3d3"
+sectorCTA:
+  headingcolor: light
+  display: false
+  heading: Get the data on Lincolnshire as a location for your business
+  contentscolour: text-white
+  formhandler: multibrochurestep1
+  hiddenformfields:
+    - field: brochure
+      value: multiple
+    - field: page
+      value: ai-and-intelligent-robotics
+    - field: cc
+      value: investment@lincolnshire.gov.uk
+  footerimg: blue-half-grad.png
+  buttonhover: "#af0000"
+  buttoncolor: "#e75a13"
+  image: brochure-form.png
+  lead: "Lincolnshire’s sector-focused Business Location Guides provide essential
+    information and data for companies researching and evaluating Lincolnshire
+    as a potential investment location. Insights
+    include:                                       "
+  bgcolor: dark
+support:
+  display: false
+  heading: Support for Your Business Investment
+  lead: Working together, Invest Lincolnshire and our partner organisations,
+    including local authorities, education providers and businesses, provide
+    dedicated support to ensure a ‘soft landing’ for companies locating and
+    investing in Lincolnshire.
+  ctatext: about support for investing businesses from Invest Lincolnshire
+  image: grey-grad
 hero:
   display: true
-  heading: "Investment Opportunities"
-  blurb: >-
-        Lincolnshire is the UK location of choice for investing businesses in high-growth industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively.
-  heroImg: 'https://res.cloudinary.com/lincs/image/upload/arrows.png'
-
+  heading: Investment Opportunities
+  blurb: Lincolnshire is the UK location of choice for investing businesses in
+    high-growth industry sectors. Invest Lincolnshire helps businesses to
+    relocate, start-up or expand in Lincolnshire - more quickly, efficiently,
+    and cost-effectively.
+  heroImg: https://res.cloudinary.com/lincs/image/upload/arrows.png
 locations:
   display: true
   heading: Locations
@@ -21,7 +54,7 @@ locations:
     Name: Investments Map
     Thumbnail: investments-map.jpg
     pdf: investments-map.pdf
-    display: true                       
+    display: true
   items:
     - Name: Able Immingham Energy Park
       Thumbnail: able-immingham-energy-park.jpg
@@ -56,8 +89,8 @@ locations:
     - Name: Central Lincolnshire Food Enterprise Zone
       Thumbnail: central-lincolnshire-food-enterprise-zone.jpg
       pdf: Central-Lincolnshire-Food-Enterprise-Zone.pdf
-      display: true 
-      marker: 7    
+      display: true
+      marker: 7
     - Name: Humber Gate. Plot H
       Thumbnail: humber-gate-plot-h.jpg
       pdf: Humber-Gate-Plot-H.pdf
@@ -132,34 +165,10 @@ locations:
       Thumbnail: wardentree-lane.jpg
       pdf: Wardentree-Lane.pdf
       display: true
-      marker: 22                                                                                        
-support:
-  display: false
-  heading: Support for Your Business Investment
-  lead: >-
-      Working together, Invest Lincolnshire and our partner organisations, including local authorities, education providers and businesses, provide dedicated support to ensure a ‘soft landing’ for companies locating and investing in Lincolnshire.
-  ctatext: about support for investing businesses from Invest Lincolnshire
-  image: grey-grad
-sectorCTA:
-  display: false
-  bgcolor: dark
-  headingcolor: light
-  buttoncolor: '#e75a13'
-  buttonhover: '#af0000'
-  image: brochure-form.png
-  heading: Get the data on Lincolnshire as a location for your business
-  lead: >-
-     Lincolnshire’s sector-focused Business Location Guides provide essential information and data for companies researching and evaluating Lincolnshire as a potential investment location. Insights include:                                       
-
-  contentscolour: 'text-white'
-  formhandler: multibrochurestep1
-  hiddenformfields:
-     - field: brochure
-       value: multiple  
-     - field: page
-       value: ai-and-intelligent-robotics
-     - field: cc
-       value: investment@lincolnshire.gov.uk    
-  footerimg: blue-half-grad.png 
+      marker: 22
+    - display: true
+      Name: Cheese Factory
+      marker: 23
+      Thumbnail: 20250429_095517_1600_800_80_s_c1.jpg
+      pdf: cheese.pdf
 ---
-
