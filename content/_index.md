@@ -1,6 +1,6 @@
 ---
 title: 'Investment Sites in Greater Lincolnshire'
-socialImage: 'https://res.cloudinary.com/lincs/image/upload/arrows.png''
+socialImage: 'https://res.cloudinary.com/lincs/image/upload/arrows.png'
 sector: locations
 seoDescription: Lincolnshire is the UK location of choice for investing
   businesses in high-growth industry sectors. Invest Lincolnshire helps
