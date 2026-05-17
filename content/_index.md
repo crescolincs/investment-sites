@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: 'Investment Sites in Greater Lincolnshire'
 socialImage: 'https://res.cloudinary.com/lincs/image/upload/arrows.png''
-=======
-title: Investment Sites in Greater Lincolnshire
-socialImage: https://res.cloudinary.com/lincs/image/upload/robotics-header.png
->>>>>>> 591c5e4fd45c6e172779c1dfbef7384a58bed100
 sector: locations
 seoDescription: Lincolnshire is the UK location of choice for investing
   businesses in high-growth industry sectors. Invest Lincolnshire helps
@@ -170,14 +165,10 @@ locations:
       Thumbnail: wardentree-lane.jpg
       pdf: Wardentree-Lane.pdf
       display: true
-<<<<<<< HEAD
-      marker: 22                                                                                        
-=======
       marker: 22
     - display: true
       Name: Cheese Factory
       marker: 23
       Thumbnail: 20250429_095517_1600_800_80_s_c1.jpg
       pdf: cheese.pdf
->>>>>>> 591c5e4fd45c6e172779c1dfbef7384a58bed100
 ---
