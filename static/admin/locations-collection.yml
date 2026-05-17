@@ -1,0 +1,50 @@
+      - name: "locations"
+        label: "Locations"
+        media_folder: ""
+        public_folder: ""
+        files:
+          - file: "content/_index.md"
+            label: "Investment Sites in Greater Lincolnshire"
+            name: "locations"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Social Image", name: "socialImage", widget: "image", required: false, hint: "An image that will be picked up by social media platforms"}
+              - {label: "Sector", name: "sector", widget: "hidden", default: "locations"}
+              - {label: "Description (SEO)", name: "seoDescription", widget: "text", required: false, hint: "A description/synopsis of the content to help search engines understand the value to your audience"}
+              - {label: "CTA Arrow Dark", name: "ctaarrowclrdark", widget: "hidden", default: "#7a7a7f"}
+              - {label: "CTA Arrow Light", name: "ctaarrowclrlight", widget: "hidden", default: "#ded3d3"}
+    
+              - label: "Hero"
+                name: "hero"
+                widget: "object"
+                fields:
+                  - {label: "Display", name: "display", widget: "boolean", default: true, hint: "Set to false to hide the Hero Section."}
+                  - {label: "Heading", name: "heading", widget: "string"}
+                  - {label: "Strapline", name: "blurb", widget: "text"}
+                  - {label: "Hero Image", name: "heroImg", widget: "image"}
+    
+              - label: "Locations"
+                name: "locations"
+                widget: "object"
+                fields:
+                  - {label: "Display", name: "display", widget: "boolean", default: true, hint: "Set to false to hide the Locations Section."}
+                  - {label: "Heading", name: "heading", widget: "string"}
+    
+                  - label: "Map"
+                    name: "map"
+                    widget: "object"
+                    fields:
+                      - {label: "Name", name: "Name", widget: "string"}
+                      - {label: "Thumbnail", name: "Thumbnail", widget: "image", hint: "Upload a JPG thumbnail for the map - RECOMMENDED SIZE 640x360px"}
+                      - {label: "PDF", name: "pdf", widget: "file", hint: "Upload the Location Map PDF"}
+                      - {label: "Display", name: "display", widget: "boolean", default: true, hint: "Set to false to hide the Locations Map."}
+    
+                  - label: "Location Items"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - {label: "Name", name: "Name", widget: "string"}
+                      - {label: "Thumbnail", name: "Thumbnail", widget: "image", hint: "Upload a JPG thumbnail for this location - RECOMMENDED SIZE 640x360px"}
+                      - {label: "PDF", name: "pdf", widget: "file", hint: "Upload the Location PDF"}
+                      - {label: "Display", name: "display", widget: "boolean", default: true, hint: "Set to false to hide this location."}
+                      - {label: "Marker Number", name: "marker", widget: "number", value_type: "int", hint: "Enter the marker number for this location."}
