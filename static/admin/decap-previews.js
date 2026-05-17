@@ -227,7 +227,5 @@
     }
   });
  
-
-
   CMS.registerPreviewTemplate("articles", PostPreview);
   

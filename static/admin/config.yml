@@ -13,7 +13,6 @@ backend:
 #    multiple: false
 #    output_filename_only: true
 
-
 publish_mode: editorial_workflow
 logo_url: https://res.cloudinary.com/lincs/image/upload/v1716044699/invest-lincolnshire-logo.svg
 
