@@ -9,7 +9,7 @@ seoDescription: Lincolnshire is the UK location of choice for investing
 ctaarrowclrdark: "#7a7a7f"
 ctaarrowclrlight: "#ded3d3"
 hero:
-  display: true
+  display: false
   heading: Investment Opportunities
   blurb: Lincolnshire is the UK location of choice for investing businesses in
     high-growth industry sectors. Invest Lincolnshire helps businesses to
