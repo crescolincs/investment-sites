@@ -1,6 +1,6 @@
 ---
-title: 'Investment Sites in Greater Lincolnshire'
-socialImage: 'https://res.cloudinary.com/lincs/image/upload/arrows.png'
+title: Investment Sites in Greater Lincolnshire
+socialImage: https://res.cloudinary.com/lincs/image/upload/arrows.png
 sector: locations
 seoDescription: Lincolnshire is the UK location of choice for investing
   businesses in high-growth industry sectors. Invest Lincolnshire helps
@@ -28,7 +28,7 @@ locations:
     - Name: Able Immingham Energy Park
       Thumbnail: able-immingham-energy-park.jpg
       pdf: Able-Immingham-Energy-Park.pdf
-      display: true
+      display: false
       marker: 1
     - Name: Charterholme
       Thumbnail: charterholme.jpg
@@ -48,12 +48,12 @@ locations:
     - Name: Euro Parc
       Thumbnail: europarc.jpg
       pdf: Europarc.pdf
-      display: true
+      display: false
       marker: 5
     - Name: Grimsby Town Centre
       Thumbnail: grimsby-town-centre.jpg
       pdf: Grimsby-Town-Centre.pdf
-      display: true
+      display: false
       marker: 6
     - Name: Central Lincolnshire Food Enterprise Zone
       Thumbnail: central-lincolnshire-food-enterprise-zone.jpg
@@ -63,17 +63,17 @@ locations:
     - Name: Humber Gate. Plot H
       Thumbnail: humber-gate-plot-h.jpg
       pdf: Humber-Gate-Plot-H.pdf
-      display: true
+      display: false
       marker: 8
     - Name: Humber Industrial LTD IPP Grimsby
       Thumbnail: humber-industrial-ltd-ipp-grimsby.jpg
       pdf: Humber-Industrial-LTD-IPP-Grimsby.pdf
-      display: true
+      display: false
       marker: 9
     - Name: Humber Industrial LTD Energy Park Way
       Thumbnail: humber-industrial-ltd-energy-park-way.jpg
       pdf: Humber-Industrial-LTD-Energy-Park-Way.pdf
-      display: true
+      display: false
       marker: 10
     - Name: Lincoln City Centre
       Thumbnail: lincoln-city-centre.jpg
@@ -123,12 +123,12 @@ locations:
     - Name: The Helm
       Thumbnail: the-helm.jpg
       pdf: The-Helm.pdf
-      display: true
+      display: false
       marker: 20
     - Name: The Ice Factory
       Thumbnail: the-ice-factory.jpg
       pdf: The-Ice-Factory.pdf
-      display: true
+      display: false
       marker: 21
     - Name: Wardentree Lane
       Thumbnail: wardentree-lane.jpg
