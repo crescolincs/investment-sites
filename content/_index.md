@@ -21,7 +21,7 @@ locations:
   heading: Locations
   map:
     Name: Investments Map
-    Thumbnail: investments-map.jpg
+    Thumbnail: investment-site-map.jpg
     pdf: investments-map.pdf
     display: true
   items:
