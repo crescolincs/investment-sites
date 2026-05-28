@@ -22,7 +22,7 @@ locations:
   map:
     Name: Investments Map
     Thumbnail: investment-site-map.jpg
-    pdf: investments-map.pdf
+    pdf: investment-site-map.pdf
     display: true
   items:
     - Name: Able Immingham Energy Park
